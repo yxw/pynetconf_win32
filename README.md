@@ -22,3 +22,4 @@ for nic in interfaces:
         # set a static IP + static DNS + proxy connection
         set_static_conn(nic, '10.81.112.136', '255.255.255.128', '10.81.112.129', ['10.81.112.129',])
         set_proxy(server="www.example.com:8080")
+```
