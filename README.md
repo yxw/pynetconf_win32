@@ -4,7 +4,7 @@ Python scripts to configure network settings for windows:
 - Proxy server configuration
 
 Usage:
-
+```python
 import wmi
 from win32_nic_config import *
 from win32_proxy_config import *
